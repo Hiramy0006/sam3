@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Історія Мистецтва</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="img/favic.svg" rel="icon" >
+    <link rel="stylesheet" href="fonts/line-awesome/css/line-awesome.css">
+</head>
+<body>
+    
+    <script>
+        "use strict";
+        let today = new Date();
+        let exhibitionDate = new Date(2023, 11, 12); // 12.12.23
+        const day = 86400000;
+        const hour = 3600000;
+        const minute = 60000;
+        let time = exhibitionDate.getTime() - today.getTime();
+        let days = Math.floor(time / day);
+        let hours = Math.floor((time - days * day) / hour);
+        let minutes = Math.floor((time - days * day - hours * hour) / minute);
+        let str = days + " днів, " + hours + " годин, " + minutes + " хвилин.";
+        console.log("До кінця виставки залишилося ", str);
+        alert("До кінця виставки залишилося " + str);
+    </script>
+
+
+
+    <header>
+        <img src="img/logo.svg" alt="Логотип" width="50" height="50">
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="ancient_art.html">Античне Мистецтво</a></li>
+                <li><a href="medieval_renaissance.html">Середньовіччя та Ренесанс</a></li>
+                <li><a href="baroque_romanticism.html">Бароко та Романтизм</a></li>
+                <li><a href="19th_20th_century.html">Мистецтво XIX-XX століть</a></li>
+                <li><a href="modern_art.html">Сучасне Мистецтво</a></li>
+                <li><a href="author.html">Про автора</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><strong>Історія Мистецтва: Від Античності до Сучасності</strong></h1>
+        <p>Ласкаво просимо на веб-сайт, який досліджує захопливу історію мистецтва від давніх часів до наших днів. Відкрийте для себе видатних художників, архітекторів та стилі мистецтва, що формували наш світ.</p>
+        <p>Стародавня Греція та Рим внесли <strong>значний вклад</strong> у розвиток архітектури і скульптури. В середньовіччі Європи розквітала готика та ренесанс, відкриваючи нові стандарти в мистецтві. Бароко призвело до розквіту живопису, а романтизм імпульсивно висловили почуття та емоції.</p>
+        <p>У <strong>20-му столітті</strong> народилися <strong>кубізм, сюрреалізм, абстракціонізм і поп-арт,</strong> що викликали кардинальні зміни у сприйнятті мистецтва. Сучасність відкриває широкий спектр мистецьких напрямків, включаючи мистецтво нових медіа, інсталяції та віртуальну реальність.</p>
+        <p><strong>Історія мистецтва</strong> - це не просто розвиток творчості, але й відображення соціокультурних, політичних і філософських змін у суспільстві. Вона відображає різноманітність і багатство людського вираження та сприяє розумінню минулого і сучасності через призму мистецтва.</p>
+        
+        
+        <p>Давайте почнемо цю захоплюючу подорож у часі, що охоплює творчість людей на протязі тисячоліть. Вона починається зі штрихів на стінах печер палеоліту та древніх ритуальних обрядів, а потім розцвітає величними скульптурами, архітектурою, живописом, музикою, літературою і сучасними формами мистецтва.</p>
+        
+        <h2>Для початку рекомендуємо подивитись це відео</h2>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ikv3ROf1EPQ?si=GsM9Al7YqkKCYjcB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <br>
+        <br>
+        
+        
+        
+       <a href="ancient_art.html" class="learn-more-button">Дізнатися більше</a>
+        
+        
+       
+    </main>
+
+
+    
+
+
+
+    <footer>
+        <h3>&copy; 2023 Історія Мистецтва</h3>
+    </footer>
+</body>
+</html>
+

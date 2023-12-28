@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бароко та Романтизм</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/favic.svg" rel="icon" >
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="Логотип" width="50" height="50">
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="ancient_art.html">Античне Мистецтво</a></li>
+                <li><a href="medieval_renaissance.html">Середньовіччя та Ренесанс</a></li>
+                <li><a href="baroque_romanticism.html">Бароко та Романтизм</a></li>
+                <li><a href="19th_20th_century.html">Мистецтво XIX-XX століть</a></li>
+                <li><a href="modern_art.html">Сучасне Мистецтво</a></li>
+                <li><a href="author.html">Про автора</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><strong>Бароко та Романтизм: Віддзеркалення Специфіки Епох</h1></strong>
+        <h2>Бароко: Емоції та Виразність</h2>
+
+        <p><strong>Бароко</strong> - це стиль, який розквітав у Європі в 17-18 століттях. Його головною рисою є емоційна і динамічна виразність. Художники бароко намагалися передати великі емоції, використовуючи яскраві кольори, динамічні композиції та драматичні сцени. Цей стиль був широко використаний в живопису, скульптурі, архітектурі та музиці.</p>
+        <p>У нашій галереї ми представляємо вам вибір картин та скульптур бароко. Серед видатних художників цього періоду - Караваджо, Рубенс, та Берніні, чия скульптура "Давид" залишає враження сили і виразності. Через бароко, мистецтво стало засобом вираження емоцій та сприяло розвитку та розквіту мистецтва в Європі.</p>
+        <h2> Романтизм: Спрага за Свободою та Фантазією</h2>
+        <p><strong>Романтизм,</strong> який зацвів у 18-19 століттях, відрізняється своєю спрагою за свободою та фантазією. Цей стиль надавав передпочинок почуттям та індивідуальності, прагненню до природи та таємниці. Художники романтизму часто зображували природу в її величі та таємниці, а також прагнули підкреслити поетичність та духовність людини.</p>
+        <p>У нашій галереї ви знайдете роботи відомих романтичних художників, таких як Каспар Давид Фрідріх, Ежен Делакруа, і Каспар Девід Фрідріх. Їхні роботи передають велич і містичність природи, а також внутрішні стану та переживання людини.</p>
+        <h2>Заключні думки</h2>
+        <p><strong>Бароко та Романтизм</strong> - це дві різні, але дуже важливі епохи в історії мистецтва. Бароко підкреслює виразність і динаміку, тоді як Романтизм розцвітає у світі фантазії та почуттів. Вивчення цих стилів надає нам глибоке розуміння розвитку та різноманіття мистецтва у світовій культурі.</p>
+        <p>Наша галерея пропонує вам можливість насолодитися цими стилями через шедеври художньої майстерності, які залишилися в спадок нашій сучасності. Ми сподіваємось, що ви знайдете їхню красу та глибину так само захоплюючими, як і ми.</p>
+
+
+    </main>
+
+<!--Owl Carousel-->
+		
+		
+<div class="owl-carousel owl-theme">
+    <div class="item"><img src="img/Bernini.jpg"></div>
+    <div class="item"><img src="img/Versailles.jpg"></div>
+    <div class="item"><img src="img/the-stages-of-life.jpg"></div>
+    <div class="item"><img src="img/Santuario_de_loyola._Vista_general.jpeg"></div>							
+</div>
+
+</div>
+<!--SCRIPTS-->
+<script src="js/jquery.js"></script>
+
+<!--Owl Carousel-->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">	
+<script src="owlcarousel/owl.carousel.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+loop:true,
+autoWidth:true,
+autoplay:true,
+autoplayTimeout:1000,
+autoplayHoverPause:true,
+margin:10,
+nav:false,
+responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:3
+    },
+    1000:{
+        items:5
+    }
+}
+})
+</script>
+
+<br>
+<a href="19th_20th_century.html" class="learn-more-button">Дізнатися більше</a>
+<br>
+<br>
+
+
+
+    <footer>
+        <h3>&copy; 2023 Історія Мистецтва</h3>
+    </footer>
+</body>
+</html>
